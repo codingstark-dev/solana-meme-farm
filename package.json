@@ -1,0 +1,24 @@
+{
+  "name": "solana-meme-farm",
+  "version": "1.0.0",
+  "description": "Terminal-based Solana Meme Economy Simulator - Mine ASCII memes, farm meme coins, and evolve through community votes",
+  "module": "index.tsx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.tsx",
+    "dev": "bun --hot run index.tsx"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.1.74",
+    "@opentui/react": "^0.1.74",
+    "react": "^19.2.3"
+  }
+}
